@@ -95,3 +95,5 @@ public class Fasta_Parser
 		}
 }
 
+// Comparator adapted from :
+// http://stackoverflow.com/questions/2748829/create-a-sortedmap-in-java-with-a-custom-comparator
