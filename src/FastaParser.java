@@ -78,9 +78,9 @@ public class Fasta_Parser
 			List<FastaSequence> fastaList = readFastaFile("/Users/Smatlock/pf.fasta"); // Enter your file here
 			for( FastaSequence fs : fastaList)
 			{
-			  System.out.println(fs.getHeader());
+				System.out.println(fs.getHeader());
 				System.out.println(fs.getSequence());
-				System.out.println(fs.getSequence());
+				System.out.println(fs.getGCRatio());
 				
 			}
 			
